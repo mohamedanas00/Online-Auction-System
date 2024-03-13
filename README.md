@@ -5,5 +5,5 @@
 ## How it Works
 * The AuctionServer listens for incoming client connections on a specified port.
 Each client connection is handled by a separate ClientHandler thread.
-The ClientHandler receives bids from clients, notifies other clients about new bids, and terminates upon receiving the "end" command.
-The AuctionClient connects to the server, allows users to input bids, and displays notifications from the server.
+* The ClientHandler receives bids from clients, notifies other clients about new bids, and terminates upon receiving the "end" command.
+* The AuctionClient connects to the server, allows users to input bids, and displays notifications from the server.
